@@ -1,0 +1,44 @@
+/*---POSITION---*/
+
+.header__img {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: -10px auto 15px auto;
+}
+
+.titleBar {
+  position: absolute;
+  top: 330px;
+  width: 100%;
+}
+
+.profile {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.infoBox {
+  margin-bottom: 15px;
+  margin-top: 10px
+}
+
+.rightColumn,
+.leftColumn {
+  float: right;
+}
+
+footer {
+  clear: both;
+}
+
+/*----Scaling-----*/
+
+/*Large:*/
+@media screen and (max-width: 1024px)
+
+/*Medium:*/
+@media screen and (max-width: 800px)
+
+/*Small:*/
+@media screen and (max-width: 600px)

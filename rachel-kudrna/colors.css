@@ -1,19 +1,5 @@
-/*---SHAPES--------------*/
-/*------------------------------------------------*/
-.profile {
-  border-radius: 5px;
-  height: 100px;
-  margin-bottom: 15px;
-}
-
-.infoBox {
-  border-radius: 5px;
-  height: 200px;
-  margin-bottom: 15px;
-}
-
 /*---COLORS--------------*/
-/*------------------------------------------------*/
+
 /*page background*/
 .color1 {
   background-color:#dcd6c0;
