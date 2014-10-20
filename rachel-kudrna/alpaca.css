@@ -10,18 +10,74 @@
   border-radius: 5px;
 }
 
+.container {
+  width: 960px;
+  margin: auto;
+}
+
 .profile {
   border-radius: 5px;
-  height: 100px;
+  height: 300px;
 }
 
 .infoBox {
   border-radius: 5px;
-  height: 200px;
+  height: 457px;
 }
 
 footer {
-  height: 100px;
-  padding: 5px;
-
+  border-radius: 5px;
+  height: 200px;
 }
+
+
+/*Large/computer:*/
+/*@media screen and (max-width: 959px)
+  .container {
+    width: 100%;
+  }
+
+  .header__img {
+    width: 100%;
+  }
+
+  .rightColumn {
+    width: 100%;
+  }
+
+  .leftColumn {
+    width: 100%;
+  }*/
+/*IMAGE SCALING*/
+
+/*Medium/tablet, phones:*/
+/*@media screen and (max-width: 640px)
+.rightColumn {
+  width: 100%;
+}
+
+.leftColumn {
+  width: 100%;
+}
+
+/*Small:/small phones*/
+/*@media screen and (max-width: 320px)
+.container {
+  width: 320px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

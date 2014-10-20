@@ -3,7 +3,7 @@
 .header__img {
   position: relative;
   display: block;
-  width: 90%;
+  width: 960px;
   margin: -10px auto 15px auto;
 }
 
@@ -13,14 +13,18 @@
   width: 100%;
 }
 
+.container {
+  width: 960px;
+  margin: auto;
+}
+
 .profile {
   margin-bottom: 15px;
-  margin-top: 10px;
+  margin-right: 15px;
 }
 
 .infoBox {
   margin-bottom: 15px;
-  margin-top: 10px
 }
 
 .rightColumn,
@@ -28,17 +32,37 @@
   float: right;
 }
 
+.rightColumn {
+  width: 67%;
+}
+
+.leftColumn {
+  width: 33%;
+}
+
 footer {
+  width: 960px;
+  margin: auto;
   clear: both;
 }
 
 /*----Scaling-----*/
 
-/*Large:*/
-@media screen and (max-width: 1024px)
+/*Large/computer:*/
+/*@media screen and (max-width: 959px)*/
+/*container width 100%
+left & right columns are percentage
+change img displays to 100%*/
 
-/*Medium:*/
-@media screen and (max-width: 800px)
+/*Medium/tablet, some phones:*/
+/*@media screen and (max-width: 640px)*/
+/*columns width 100%*/
 
-/*Small:*/
-@media screen and (max-width: 600px)
+/*Small:/small phones*/
+/*@media screen and (max-width: 320px)*/
+/*container has width of 320px*/
+
+
+
+
+
