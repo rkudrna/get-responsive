@@ -48,19 +48,49 @@ footer {
 
 /*----Scaling-----*/
 
-/*Large/computer:*/
-/*@media screen and (max-width: 959px)*/
-/*container width 100%
-left & right columns are percentage
-change img displays to 100%*/
+/*Large/computer:---------------------------*/
+@media screen and (max-width: 959px) {
 
-/*Medium/tablet, some phones:*/
-/*@media screen and (max-width: 640px)*/
-/*columns width 100%*/
+  .container {
+    width: 100%;
+  }
 
-/*Small:/small phones*/
-/*@media screen and (max-width: 320px)*/
+  .header__img {
+    width: 100%;
+  }
+
+  footer {
+    width:100%;
+  }
+}
+
+/*Medium/tablet, phones:---------------------*/
+@media screen and (max-width: 640px) {
+  /*column width 100% to stack*/
+  .rightColumn,
+  .leftColumn {
+   width: 100%;
+  }
+
+  .infoBox {
+   padding: 2px;
+ }
+}
+
+/*Small:/small phones------------------------*/
+@media screen and (max-width: 320px) {
 /*container has width of 320px*/
+  .container,
+  footer,
+  .header__img {
+    min-width: 320px;
+  }
+}
+
+
+
+
+
 
 
 
